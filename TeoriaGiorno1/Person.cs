@@ -42,6 +42,9 @@
             }
         }
 
+        /// <summary>
+        /// This method prints the person information in the console
+        /// </summary>
         public void SayHi()
         {
             Console.WriteLine("Hello, my name is " + FirstName + " " + LastName + " and I'm " + Age + " years old." );
